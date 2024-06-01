@@ -28,7 +28,7 @@ Jest & Supertest: Testing framework and HTTP assertions for API testing
 Twilio: SMS communication API (currently commented out due to non-working Twilio account)
 Setup
 
-###Clone the repository:
+### Clone the repository:
 
 bash
 Copy code
@@ -92,7 +92,7 @@ POST /api/wallet/add: To add balance (requires authentication).
 POST /api/payment/initiate: to initiate payment (requires authentication).
 POST /api/payment/confirm: to confirm payment (requires authentication).
 
-Testing
+### Testing
 Unit tests for controllers and models are located in the test directory.
 Use Jest and Supertest for testing.
 Contributing
