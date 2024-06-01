@@ -1,4 +1,4 @@
-Cab Booking Application
+#Cab Booking Application
 This project is a cab booking application designed to facilitate the booking of rides between users and drivers. It allows users to book a cab for travel between specified pickup and drop-off locations, notifies drivers of new bookings, and maintains a history of bookings for users.
 
 Table of Contents
@@ -28,7 +28,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/cab-booking-app.git
+git clone https://github.com/Maurice522/cabBookingApp.git
 cd cab-booking-app
 Install dependencies:
 
