@@ -1,22 +1,25 @@
-#Cab Booking Application
+# Cab Booking Application
+
 This project is a cab booking application designed to facilitate the booking of rides between users and drivers. It allows users to book a cab for travel between specified pickup and drop-off locations, notifies drivers of new bookings, and maintains a history of bookings for users.
 
-Table of Contents
-Features
-Technologies Used
-Setup
-Usage
-API Endpoints
-Testing
-Contributing
-License
-Features
+## Table of Contents
+1. Features
+2. Technologies Used
+3. Setup
+4. Usage
+5. API Endpoints
+6. Testing
+7. Contributing
+8. License
+
+## Features
 User Authentication: Users can sign up, log in, and receive OTP for authentication.
 Booking System: Users can book a cab by providing pickup and drop-off locations.
 Driver Management: Drivers are managed separately with a booking history.
 SMS Notifications: Drivers receive SMS notifications for new bookings.
 User Booking History: Users can view their booking history.
-Technologies Used
+
+### Technologies Used
 Node.js: JavaScript runtime environment
 Express.js: Web application framework for Node.js
 MongoDB: NoSQL database for storing user, driver, and booking data
@@ -24,7 +27,8 @@ Mongoose: MongoDB object modeling for Node.js
 Jest & Supertest: Testing framework and HTTP assertions for API testing
 Twilio: SMS communication API (currently commented out due to non-working Twilio account)
 Setup
-Clone the repository:
+
+###Clone the repository:
 
 bash
 Copy code
@@ -64,7 +68,9 @@ Register a user and obtain OTP for authentication.
 Log in with registered credentials.
 Book a cab by providing pickup and drop-off locations.
 View booking history.
-API Endpoints
+
+## API Endpoints
+
 POST /api/auth/signup: Register a new user.
 POST /api/auth/login: Log in with existing user credentials.
 
